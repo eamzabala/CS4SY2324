@@ -35,7 +35,7 @@ public class CS4SY2324 {
         // average rating
         int ratingTotal = rating1 + rating2 + rating3;
         double ratingAve = ratingTotal / 3;
-        System.out.print("The average Rating of the books is: ");
+        System.out.print("The average rating of the books is: ");
         System.out.println(ratingAve);
         
         // Newest release
@@ -60,9 +60,9 @@ public class CS4SY2324 {
         // Agggtm released after games ?
         boolean olderBook = pubYear3 > pubYear1;
         if (olderBook) {
-            System.out.println("A Good Girl's Guide to Murder was released after The Ineheritance Games.");
+            System.out.println("A Good Girl's Guide to Murder was released after The Inheritance Games.");
         } else {
-            System.out.println("A Good Girl's Guide to Murder was not released after The Ineheritance Games.");
+            System.out.println("A Good Girl's Guide to Murder was not released after The Inheritance Games.");
         }
     }
     
